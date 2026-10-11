@@ -13,6 +13,7 @@ return {
 		icons = { mappings = vim.g.have_nerd_font },
 		-- Document existing key chains
 		spec = {
+			{ "<leader>a", group = "Claude" },
 			{ "<leader>b", group = "Buffer" },
 			{ "<leader>d", group = "Debugger" },
 			{ "<leader>g", group = "Git Hunk", mode = { "n", "v" } },
