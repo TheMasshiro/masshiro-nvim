@@ -1,0 +1,10 @@
+# Runtime files
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Temporary files
+.cache/
