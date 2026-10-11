@@ -8,3 +8,7 @@
 
 # Temporary files
 .cache/
+
+# lazy
+lazy-lock.json
+.env
