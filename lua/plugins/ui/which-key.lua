@@ -14,12 +14,14 @@ return {
 		-- Document existing key chains
 		spec = {
 			{ "<leader>b", group = "Buffer" },
+			{ "<leader>c", group = "Multicursor", icon = "" },
 			{ "<leader>d", group = "Debugger" },
 			{ "<leader>g", group = "Git Hunk", mode = { "n", "v" } },
 			{ "<leader>gl", group = "Lazy", mode = { "n", "v" } },
 			{ "<leader>h", group = "Harpoon", icon = "󰛢" },
 			{ "<leader>f", group = "Find", mode = { "n", "v" } },
 			{ "<leader>t", group = "Toggle" },
+			{ "<leader>x", group = "Trouble", icon = "" },
 			{ "gr", group = "LSP Actions", mode = { "n" } },
 		},
 	},
