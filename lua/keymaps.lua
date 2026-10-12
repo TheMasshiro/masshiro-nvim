@@ -83,4 +83,4 @@ vim.api.nvim_create_autocmd("TextYankPost", {
 })
 
 -- Close current buffer
-vim.keymap.set("n", "<leader>bd", "<Cmd>bdelete<CR>", { desc = "Close Buffer" })
+vim.keymap.set("n", "<leader>bd", "<Cmd>bdelete<CR>", { desc = "[D]estroy Buffer" })
